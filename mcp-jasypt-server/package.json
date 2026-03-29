@@ -1,0 +1,21 @@
+{
+  "name": "mcp-jasypt-server",
+  "version": "1.0.0",
+  "description": "MCP stdio server for hnair-tools Jasypt encrypt/decrypt API",
+  "type": "module",
+  "main": "index.mjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.28.0",
+    "zod": "^3.23.8"
+  }
+}
